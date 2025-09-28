@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- menu_smart_budget.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Primary Actions (Always visible) -->
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Làm mới"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/action_create_new"
+        android:title="Tạo ngân sách mới"
+        android:icon="@drawable/ic_add_circle"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="200" />
+
+    <!-- Secondary Actions (In overflow menu) -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="Cài đặt ngân sách"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never"
+        android:orderInCategory="300" />
+
+    <item
+        android:id="@+id/action_export"
+        android:title="Xuất dữ liệu"
+        android:icon="@drawable/ic_export"
+        app:showAsAction="never"
+        android:orderInCategory="400" />
+
+    <item
+        android:id="@+id/action_notifications"
+        android:title="Thông báo"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="never"
+        android:orderInCategory="500" />
+
+    <item
+        android:id="@+id/action_help"
+        android:title="Trợ giúp"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="never"
+        android:orderInCategory="600" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="Thông tin ứng dụng"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="never"
+        android:orderInCategory="700" />
+
+</menu>

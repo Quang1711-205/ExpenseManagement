@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Margins and Padding -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_extra_large">32dp</dimen>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_extra_large">32dp</dimen>
+
+    <!-- Card Properties -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_corner_radius_large">24dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation_high">8dp</dimen>
+
+    <!-- Item Spacing -->
+    <dimen name="item_spacing">8dp</dimen>
+    <dimen name="item_spacing_small">4dp</dimen>
+    <dimen name="item_spacing_large">16dp</dimen>
+
+    <!-- Button Dimensions -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_height_large">56dp</dimen>
+    <dimen name="button_corner_radius">24dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_extra_large">48dp</dimen>
+
+    <!-- Category Icon -->
+    <dimen name="category_icon_size">48dp</dimen>
+    <dimen name="category_icon_corner_radius">24dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_headline">20sp</dimen>
+    <dimen name="text_size_display">24sp</dimen>
+
+    <!-- Summary Card -->
+    <dimen name="summary_card_padding">24dp</dimen>
+    <dimen name="summary_card_margin">16dp</dimen>
+
+    <!-- Transaction Item -->
+    <dimen name="transaction_item_height">80dp</dimen>
+    <dimen name="transaction_item_padding">16dp</dimen>
+    <dimen name="transaction_item_margin_vertical">4dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <!-- Divider -->
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- Chip -->
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_height_small">24dp</dimen>
+    <dimen name="chip_corner_radius">16dp</dimen>
+
+    <!-- Tab -->
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_indicator_height">3dp</dimen>
+
+    <!-- Empty State -->
+    <dimen name="empty_state_icon_size">120dp</dimen>
+    <dimen name="empty_state_padding">40dp</dimen>
+
+    <!-- Animation -->
+    <dimen name="animation_offset">50dp</dimen>
+
+    <!-- Stroke Width -->
+    <dimen name="stroke_width_thin">0.5dp</dimen>
+    <dimen name="stroke_width_normal">1dp</dimen>
+    <dimen name="stroke_width_thick">2dp</dimen>
+    <dimen name="corner_radius_m">12dp</dimen>
+</resources>

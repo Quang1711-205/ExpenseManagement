@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Tổng quan (Dashboard/Overview) -->
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="Tổng quan"
+        android:icon="@drawable/ic_dashboard"
+        android:enabled="true" />
+
+    <!-- Giao dịch (Transactions) -->
+    <item
+        android:id="@+id/nav_transactions"
+        android:title="Giao dịch"
+        android:icon="@drawable/ic_transactions"
+        android:enabled="true" />
+
+    <!-- Phân tích (Analytics) -->
+    <item
+        android:id="@+id/nav_analytics"
+        android:title="Phân tích"
+        android:icon="@drawable/ic_analytics"
+        android:enabled="true" />
+
+    <!-- Ngân sách (Budget) -->
+    <item
+        android:id="@+id/nav_budget"
+        android:title="Ngân sách"
+        android:icon="@drawable/ic_budget"
+        android:enabled="true" />
+
+    <!-- Mục tiêu (Goals) -->
+    <item
+        android:id="@+id/nav_goals"
+        android:title="Mục tiêu"
+        android:icon="@drawable/ic_goals"
+        android:enabled="true" />
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Budget Periods Array -->
+    <string-array name="budget_periods">
+        <item>Hàng tuần</item>
+        <item>Hàng tháng</item>
+        <item>Hàng năm</item>
+    </string-array>
+
+    <!-- Budget Period Values (for database) -->
+    <string-array name="budget_period_values">
+        <item>weekly</item>
+        <item>monthly</item>
+        <item>yearly</item>
+    </string-array>
+
+    <!-- Payment Methods -->
+    <string-array name="payment_methods">
+        <item>Tiền mặt</item>
+        <item>Thẻ ghi nợ</item>
+        <item>Thẻ tín dụng</item>
+        <item>Chuyển khoản</item>
+        <item>Ví điện tử</item>
+    </string-array>
+</resources>

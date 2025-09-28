@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Bottom Navigation Text Styles -->
+    <style name="BottomNavTextActive" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/bottom_nav_color</item>
+    </style>
+
+    <style name="BottomNavTextInactive" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/bottom_nav_inactive</item>
+    </style>
+
+    <!-- Bottom Navigation Custom Style -->
+    <style name="CustomBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@drawable/bg_bottom_nav</item>
+        <item name="itemIconTint">@color/bottom_nav_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_selector</item>
+        <item name="itemIconSize">24dp</item>
+        <item name="elevation">16dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemRippleColor">@color/primary_light</item>
+        <item name="itemActiveIndicatorStyle">@style/CustomBottomNavIndicator</item>
+    </style>
+
+    <!-- Active Indicator Style -->
+    <style name="CustomBottomNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/primary_light</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+    </style>
+
+</resources>
